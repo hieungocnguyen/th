@@ -3,7 +3,7 @@ import { revalidatePath } from "next/cache";
 import Thread from "../models/thread.models";
 import User from "../models/user.models";
 import { connectToDB } from "../mongoose";
-import Community from "../models/comunity.models";
+import Community from "../models/community.models";
 
 interface Params {
    text: string;
